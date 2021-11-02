@@ -8,17 +8,21 @@ Returns all created users.
 ```
 {
 	"number_of_users": **int**,
-	"users": [<strong>list of strings</strong>]
+	"users": [...]
 }
 ```
+
+- ``users`` will return a list of strings with discord id's
 
 ### ``/api/basedbot/v1/basedleaderboard``
 
 Returns leaderboard for all users with a based score over 5.
 - JSON
 
-<pre>
-<code>{
-	"data": [ <a href="https://github.com/gmarciani"><strong>list of leaderboard user objects</strong></a> ]
-}</code>
-</pre>
+```
+{
+	"data": []
+}
+```
+
+- ``data`` will return a list of [leaderboard user objects](../objects/leaderboard-user.md)
