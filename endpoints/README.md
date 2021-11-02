@@ -8,7 +8,7 @@ Returns all created users.
 ```
 {
 	"number_of_users": **int**,
-	"users": [**list of strings**]
+	"users": [<strong>list of strings</strong>]
 }
 ```
 
@@ -19,6 +19,6 @@ Returns leaderboard for all users with a based score over 5.
 
 <pre>
 <code>{
-	"data": [ <a href="https://github.com/gmarciani">**list of leaderboard user objects**</a> ]
+	"data": [ <a href="https://github.com/gmarciani"><strong>list of leaderboard user objects</strong></a> ]
 }</code>
 </pre>
