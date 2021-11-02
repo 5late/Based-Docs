@@ -18,7 +18,7 @@ Returns leaderboard for all users with a based score over 5.
 - JSON
 
 <pre>
- <code>{
+<code>{
 	"data": [ <a href="https://github.com/gmarciani">**list of leaderboard user objects**</a> ]
 }</code>
 </pre>
