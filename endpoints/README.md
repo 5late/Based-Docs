@@ -9,7 +9,7 @@ Returns all created users.
 
 ```
 {
-	"number_of_users": **int**,
+	"number_of_users": 0, //int
 	"users": [...]
 }
 ```
@@ -62,7 +62,7 @@ Returns leaderboard for all users with a based score over 5.
 
 ```
 {
-	"data": []
+	"data": [...]
 }
 ```
 
