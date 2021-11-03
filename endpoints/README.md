@@ -52,8 +52,8 @@ Returns all data for specified user.
 	"sapply": "https://sapplyvalues.github.io/results.html" //string
 }
 ```
-- ``based`` returns a [user based object](./objects/user-based.md)
-- ``cringe`` returns a [user cringe object](./objects/user-cringe.md)
+- ``based`` returns a [user based object](../objects/user-based.md)
+- ``cringe`` returns a [user cringe object](../objects/user-cringe.md)
 
 ### ``/api/basedbot/v1/basedleaderboard``
 
